@@ -129,6 +129,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section{
+    margin-top: 130px;
+}
 /* about section */
 .about{
     padding: 130px;
@@ -162,4 +166,69 @@ font-weight: 700;
 #what-i-do-description{
     margin: 30px 150px;
 
+}
+
+/* skill related files */
+.skill-container{
+    display: flex;
+    gap: 20px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description{
+    color:#757575;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+/* resume related files */
+
+.resume-column{
+   
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.resume-column-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-column hr{
+    margin: 30px 0;
+}
+.resume-item-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin: 30px 0 10px 0;
+}
+
+.resume-item-institute{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin: 0 0 20px 0;
+}
+
+.resume-item-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
