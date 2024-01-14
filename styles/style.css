@@ -162,6 +162,7 @@ font-weight: 400;
 
 .about-info-description{
     color: #474747;
+    text-align: center;
 font-size: 20px;
 font-weight: 700;
 }
@@ -277,3 +278,85 @@ background: #FFF;
 width: 100%;
 }
 
+/* responsive */
+/* mobile device */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    .header{
+        background-image: none;
+    }
+    .navbar{
+        display: flex ;
+
+    }
+    .banner{
+        
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    nav, .banner, .skill-container,.about-info-container, .resume-container, footer{
+        flex-direction: column;
+    }
+    nav {
+        display: grid;
+        margin: 0 30px;
+        padding-top: 30px;
+    }
+    .nav-title{
+    font-weight: 800px;
+    color: #181818;
+    font-size: 40px;
+    font-weight: 800;
+    
+    }
+    
+  .banner{
+    padding: 20px;
+  }
+  .btn-primary{
+    margin-bottom: 15px;
+  }
+    #what-i-do-description, .banner, .resume-column, footer{
+        
+        margin: 30px;
+    }
+    footer, .about{
+        padding: 10px;
+    }
+    .footer-column{
+        width: auto;
+        padding: 10px;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
+    }
+    
+}
+
+/* tab */
+
+@media screen and (min-width:576px) and (max-width:960px)  {
+    
+    footer{
+        padding: 30px;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
+    }
+    .contact input[type="text"]{
+        margin-top: 30px;
+    }
+    #what-i-do-description, .skill-container, .resume-column, footer{
+        
+        margin: 30px;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+      }
+
+}
